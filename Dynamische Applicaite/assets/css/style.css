@@ -1,0 +1,127 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+#center-page {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+header {
+    font-weight: bolder;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    text-align: center;
+    justify-content: center;
+}
+
+header span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terug {
+    position: absolute;
+    margin: 1em 1em auto auto;
+    text-decoration: none;
+    color: black;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    background-color: white;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#all-characters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    background-color: white;
+    padding: 1em 2em 1em 2em;
+
+}
+
+.characters {
+    position: relative;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto auto auto 0;
+}
+
+.info {
+    display: inline-block;
+    width: 60%;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.title {
+
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: .25em;
+}
+
+.stats {
+    display: inline-block;
+    margin: 1em;
+}
+
+.bekijk {
+    position: absolute;
+    margin: auto 1em 1em auto;
+    text-decoration: none;
+    color: black;
+    right: 0;
+    bottom: 0;
+}
+
+hr {
+    color: lightgray;
+    position: inherit;
+    bottom: 0;
+}
+
+#char {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: white;
+    padding: 1em 2em 1em 2em;
+}
+
+#statistics {
+    border: 2px solid black;
+}
+
+#stat-text {
+    margin: 1em;
+}
+
+#bio {
+    margin: 0 auto auto 1em;
+}
+
+.fas {
+    width: 1em;
+    text-align: center;
+}
